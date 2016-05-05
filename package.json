@@ -1,6 +1,6 @@
 {
   "name": "github-public-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,8 +8,20 @@
   "keywords": [],
   "author": "Ishan Marikar <ishan.marikar@outlook.com>",
   "license": "ISC",
-  "description": "",
+  "description": "A simple node.js module to retrieve the public keys of anybody on Github.",
   "dependencies": {
     "unirest": "^0.4.2"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishan-marikar/github-public-keys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ishan-marikar/github-public-keys/issues"
+  },
+  "homepage": "https://github.com/ishan-marikar/github-public-keys#readme"
 }
